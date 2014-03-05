@@ -1,0 +1,63 @@
+{
+   "abstract" : "A collection of tools for the analysis of CLIP-Seq data.",
+   "author" : [
+      "Emmanouil \"Manolis\" Maragkakis <mns.marag@gmail.com>, Panagiotis Alexiou <pan.alexiou@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.013, CPAN::Meta::Converter version 2.133380",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "CLIPSeqTools",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DBD::SQLite" : "0",
+            "DBI" : "0",
+            "Data::Table" : "0",
+            "File::Path" : "0",
+            "File::Spec" : "0",
+            "File::Temp" : "0",
+            "GenOO" : "v1.4.2",
+            "GenOO::Data::File::BED" : "0",
+            "GenOO::Data::File::SAM" : "0",
+            "GenOO::GeneCollection::Factory" : "0",
+            "GenOO::RegionCollection::Factory" : "0",
+            "GenOO::TranscriptCollection::Factory" : "0",
+            "GenOOx::Data::File::SAMbwa" : "0",
+            "GenOOx::Data::File::SAMstar" : "0",
+            "Getopt::Long" : "0",
+            "List::Util" : "0",
+            "Math::Round" : "0",
+            "Modern::Perl" : "0",
+            "PDL" : "2.007",
+            "Pod::Usage" : "0",
+            "Try::Tiny" : "0",
+            "autodie" : "0"
+         }
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/palexiou/GenOO-CLIP/issues"
+      },
+      "homepage" : "https://github.com/palexiou/GenOO-CLIP",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/palexiou/GenOO-CLIP.git",
+         "web" : "https://github.com/palexiou/GenOO-CLIP"
+      }
+   },
+   "version" : "0.0.1"
+}
+
