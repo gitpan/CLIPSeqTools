@@ -27,7 +27,7 @@
             "Data::Table" : "0",
             "File::Path" : "0",
             "File::Spec" : "0",
-            "GenOO" : "v1.4.4",
+            "GenOO" : "v1.4.5",
             "GenOO::Data::File::SAM" : "0",
             "GenOO::GeneCollection::Factory" : "0",
             "GenOO::GenomicRegion" : "0",
@@ -43,7 +43,7 @@
             "MooseX::App::Command" : "0",
             "MooseX::App::Role" : "0",
             "MooseX::Getopt" : "0",
-            "PDL::Lite" : "0",
+            "PDL" : "2.007",
             "Statistics::R" : "0",
             "Try::Tiny" : "0",
             "autodie" : "0",
@@ -51,16 +51,16 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/palexiou/GenOO-CLIP/issues"
+         "web" : "https://github.com/mnsmar/clipseqtools/issues"
       },
-      "homepage" : "https://github.com/palexiou/GenOO-CLIP",
+      "homepage" : "https://github.com/mnsmar/clipseqtools",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/palexiou/GenOO-CLIP.git",
-         "web" : "https://github.com/palexiou/GenOO-CLIP"
+         "url" : "https://github.com/mnsmar/clipseqtools.git",
+         "web" : "https://github.com/mnsmar/clipseqtools"
       }
    },
    "version" : "0.1.0"

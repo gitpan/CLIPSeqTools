@@ -35,7 +35,7 @@ Role to enable reading a library with reads from the command line
 
 
 package CLIPSeqTools::Role::Option::Library;
-$CLIPSeqTools::Role::Option::Library::VERSION = '0.1.0'; # TRIAL
+$CLIPSeqTools::Role::Option::Library::VERSION = '0.1.0';
 
 #######################################################################
 #######################   Load External modules   #####################

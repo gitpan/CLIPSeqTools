@@ -64,7 +64,7 @@ around the middle position of B reads.
 =cut
 
 package CLIPSeqTools::CompareApp::libraries_relative_read_density;
-$CLIPSeqTools::CompareApp::libraries_relative_read_density::VERSION = '0.1.0'; # TRIAL
+$CLIPSeqTools::CompareApp::libraries_relative_read_density::VERSION = '0.1.0';
 
 # Make it an app command
 use MooseX::App::Command;

@@ -25,7 +25,7 @@ Create plots for script distribution_on_introns_exons.
 =cut
 
 package CLIPSeqTools::PlotApp::distribution_on_introns_exons;
-$CLIPSeqTools::PlotApp::distribution_on_introns_exons::VERSION = '0.1.0'; # TRIAL
+$CLIPSeqTools::PlotApp::distribution_on_introns_exons::VERSION = '0.1.0';
 
 # Make it an app command
 use MooseX::App::Command;

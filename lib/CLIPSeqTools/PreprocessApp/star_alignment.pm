@@ -29,7 +29,7 @@ Do reads alignment with STAR.
 =cut
 
 package CLIPSeqTools::PreprocessApp::star_alignment;
-$CLIPSeqTools::PreprocessApp::star_alignment::VERSION = '0.1.0'; # TRIAL
+$CLIPSeqTools::PreprocessApp::star_alignment::VERSION = '0.1.0';
 
 # Make it an app command
 use MooseX::App::Command;

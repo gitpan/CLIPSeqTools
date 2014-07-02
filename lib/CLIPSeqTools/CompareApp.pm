@@ -18,7 +18,7 @@ CLIPSeqTools::CompareApp is primarily a collection of scripts and modules that c
 
 
 package CLIPSeqTools::CompareApp;
-$CLIPSeqTools::CompareApp::VERSION = '0.1.0'; # TRIAL
+$CLIPSeqTools::CompareApp::VERSION = '0.1.0';
 
 # Make it an App and load plugins
 use Moose;

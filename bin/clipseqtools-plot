@@ -2,7 +2,7 @@
 
 
 package clipseqtools::plot;
-$clipseqtools::plot::VERSION = '0.1.0'; # TRIAL
+$clipseqtools::plot::VERSION = '0.1.0';
 
 ##############################################
 # Import external libraries

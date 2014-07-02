@@ -51,7 +51,7 @@ Split the exons and introns of coding transcripts in bins and measure the read d
 =cut
 
 package CLIPSeqTools::App::distribution_on_introns_exons;
-$CLIPSeqTools::App::distribution_on_introns_exons::VERSION = '0.1.0'; # TRIAL
+$CLIPSeqTools::App::distribution_on_introns_exons::VERSION = '0.1.0';
 
 # Make it an app command
 use MooseX::App::Command;
