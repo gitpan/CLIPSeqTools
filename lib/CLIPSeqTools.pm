@@ -18,15 +18,13 @@ Source code: The source has been deposited in GitHub L<https://github.com/palexi
 Contribute:  Please fork the GitHub repository and provide patches, features or tests.
 Bugs:        Please open issues in the GitHub repository L<https://github.com/palexiou/GenOO-CLIP/issues>
 
-=head1 EXAMPLES
-
 =cut
 
 # Let the code begin...
 
 
 package CLIPSeqTools;
-$CLIPSeqTools::VERSION = '0.0.1';
+$CLIPSeqTools::VERSION = '0.1.0'; # TRIAL
 use Modern::Perl;
 
 1;

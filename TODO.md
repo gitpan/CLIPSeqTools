@@ -6,41 +6,35 @@
 ## Annotation
 * DONE - Annotate with transcript/genic info
 * DONE - Annotate with RMSK
+* DONE - Annotate with deletions
 * TODO - Annotate with T->C mutations
-* TODO - Annotate with mismatches/deletions
 
 
 # Analyses
 
 ## Per library
-
 * DONE - Distribution on genic elements (5'UTR, CDS, 3'UTR, Introns, Exons)
 * DONE - Genome coverage (percent of genome covered by library)
 * DONE - Genomic distribution (percent of reads on genomic elements - 5'UTR, CDS, Exons, Repeats, etc)
 * DONE - Count reads on genic elements (Genes, Transcripts, 5'UTR, CDS, 3'UTR, Introns, Exons)
 * DONE - Normalize counts with Upper Quartile
 * DONE - Nmer counts and enrichment
+* DONE - Cluster size distribution
+* DONE - Intron (Ns in reads) size distribution
+* DONE - Size distribution
+* DONE - Nucleotide composition
 
-* ???? - location -> on exons (bins)  --- _MNS --- distribution_on_genic_parts.pl
-* ???? - location -> on genes (bins)  --- ???? --- 
-* ???? - location -> on elements / locations (arbirtrary bed file) --- ???? ---
-
-* TODO - sequence -> filter tags containing Nmer (list of Nmers)         --- ???? --- 
+* TODO - Cluster characterization
+* TODO - location -> on elements / locations (arbirtrary bed file)
 
 ## Compare libraries
-
 * DONE - Percent of overlap between two libraries.
 * DONE - Read density of one library around the reads of another.
 * TODO - counts -> compare per genomic element
-* ???? - location -> compare loc on exons
-* TODO - sequence -> Nmer comparison
-* TODO - sequence -> Nmer (genes / exons etc) comparison
-
 
 # Issues:
-
-* DONE - simplify input (driver, host etc) since we know which db will be used
-* DONE - standardize flags
-* TO?? - speed
-* TODO - use no custom files
-* TODO - minimize external files usage (gtf etc)
+* simplify input (driver, host etc) since we know which db will be used
+* standardize flags
+* speed
+* use no custom files
+* minimize external files usage (gtf etc)
