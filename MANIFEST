@@ -5,7 +5,6 @@ META.json
 META.yml
 Makefile.PL
 README.md
-TODO.md
 bin/clipseqtools
 bin/clipseqtools-compare
 bin/clipseqtools-plot

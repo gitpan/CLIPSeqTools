@@ -51,7 +51,7 @@ Split the 5'UTR, CDS and 3'UTR of coding transcripts in bins and measure the rea
 =cut
 
 package CLIPSeqTools::App::distribution_on_genic_elements;
-$CLIPSeqTools::App::distribution_on_genic_elements::VERSION = '0.1.0';
+$CLIPSeqTools::App::distribution_on_genic_elements::VERSION = '0.1.1';
 
 # Make it an app command
 use MooseX::App::Command;
